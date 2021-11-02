@@ -1,0 +1,7 @@
+<div>
+    <div class="photo-grid" >
+        <div class="card " *ngFor="let image of images" style="background-image: url({{image}})">
+        </div>  
+    </div>
+    <button class="button" (click)="onClick()">Show new dogs</button>
+</div>
